@@ -14,7 +14,7 @@ This script implements a simple password manager using SQLite for storage and SH
 
    add_password(): Adds a new service to the database and generates its password.
 
-Main Loop: Provides options to:
+4) Main Loop: Provides options to:
 
   Quit the program (q).
 
