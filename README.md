@@ -5,11 +5,13 @@ This script implements a simple password manager using SQLite for storage and SH
 2) Database Connection: Connects to an SQLite database (pass_manager.db), and creates a table (KEYS) if it doesn't already exist.
 
 3) Password Functions:
+
 create_password(): Generates a password hash for a given service.
 get_hex_key(): Creates a unique key for a service using the admin password and service name.
 get_password(): Retrieves and generates the password for a given service.
 add_password(): Adds a new service to the database and generates its password.
 Main Loop: Provides options to:
+
 Quit the program (q).
 Store a new password (sp).
 Retrieve an existing password (gp).
