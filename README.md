@@ -16,8 +16,8 @@ This script implements a simple password manager using SQLite for storage and SH
 
 Main Loop: Provides options to:
 
-   Quit the program (q).
+    Quit the program (q).
 
-   Store a new password (sp).
+    Store a new password (sp).
 
-   Retrieve an existing password (gp).
+    Retrieve an existing password (gp).
